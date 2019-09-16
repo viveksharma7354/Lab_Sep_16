@@ -12,7 +12,7 @@ public class JavaStringInro {
             System.out.println("Yes");
         else
             System.out.println("No");
-        System.out.println();
+        System.out.println(A.toUpperCase().charAt(0) + A.substring(1).toLowerCase() + " " + B.toUpperCase().charAt(0) + B.substring(1).toLowerCase());
     }
 
 }
